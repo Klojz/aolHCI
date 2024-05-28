@@ -1,0 +1,79 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styling */
+form#registerForm {
+    background-color: rgba(116, 116, 116, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Form element styling */
+form#registerForm div {
+    margin-bottom: 15px;
+}
+
+form#registerForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+form#registerForm input[type="text"],
+form#registerForm input[type="email"],
+form#registerForm input[type="password"],
+form#registerForm select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form#registerForm input[type="radio"] {
+    margin-right: 5px;
+}
+
+form#registerForm input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Error message styling */
+span.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Submit button styling */
+form#registerForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form#registerForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
