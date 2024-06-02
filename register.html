@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
-    <link rel="stylesheet" href="styleRegister.css">
+    <link rel="stylesheet" href="asset/styleRegister.css">
+    <script src="asset/register.js" defer></script>
 </head>
 <body>
-    <form id="registerForm">
+    <div class="banner">
+            <div class="navbar">
+                <img src="asset/image/logo.png" class="logo">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="songs.html">Songs</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+     <div class="form">
+        <form id="registerForm">
         <div>
             <label for="username">Username</label>
             <input type="text" name="username" id="username">
@@ -55,6 +68,11 @@
             <button type="submit">Register</button>
         </div>
     </form>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Willify. All rights reserved.</p>
+    </footer>
 </body>
-<script src="register.js"></script>
+
 </html>
